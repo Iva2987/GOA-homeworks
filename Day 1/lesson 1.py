@@ -30,7 +30,7 @@ is_ugly = False
 #print(type(heigh))
 #print(type(knows_programming))
 
-print(name + " " + surname + " "  + str(heigh) + " " + str(knows_programming) + " " + str(age))
+print(name + " " + surname + " "  + str(heigh) + " " + str(knows_programming) + " " + str(age) + " " + str(is_ugly))
 
 
 
