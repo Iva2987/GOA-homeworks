@@ -1,0 +1,6 @@
+age = int(input("please enter your age: "))
+high = int(input("please enter your high: "))
+print(high + age)
+print(high - age)
+print(high / age)
+print(high * age)
