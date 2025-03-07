@@ -1,24 +1,9 @@
-name = "num1"
-#print(name)
-name = "num2"
-#print(name)
-
 num1 = 5
-print(num1)
 
 num2 = 7
-print(num2)
 
+print(num1+num2)
 
-#equals = 12
-
-a = (num1, num2)
-
-#print(str(num1) + " " + str(num2) + " " + str(equals))
-
-x = sum (a)
-
-print(x)
 
 #Bonus task
 
