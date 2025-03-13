@@ -1,2 +1,2 @@
-num = int(input("please enter the number: "))
-print(num >= 10 , num<=10)
+#True and False or True or True and False  # result would be true
+print(True and False or True or True and False)

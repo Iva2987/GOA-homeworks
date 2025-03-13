@@ -1,3 +1,6 @@
-for x in range(16):
-  print(x)
-
+points = int(input("please enter your points from 0 t0 100: "))
+GRADE_A = (points >= 90 )
+GRADE_B = (points >= 70 )
+GRADE_C = (points >= 50 )
+GRADE_F = (points >= 0 )
+print (GRADE_B)
