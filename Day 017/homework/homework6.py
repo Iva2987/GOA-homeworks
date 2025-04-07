@@ -1,10 +1,13 @@
 def make_negative( number ):
-    number = [3, 5, 6, 8, 4]
-    if number > 0:
-        return - number
-    elif number < 0:
-        return number
-    else:
-        return 0
+    negative_numbers = []
+    
+    for numbers in number:
+        if number < 0:
+            negative_numbers.append(number)
+    
+    return negative_numbers
+
+make_negative[2,3,5,6,-2,-7,-9,10]
+
     
 

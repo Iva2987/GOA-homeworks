@@ -1,6 +1,4 @@
-def power(x, y):
-    x = 5
-    y = 3
-    return pow(x, y)
+def symbols(x, y):
+    return x**y
 
-print(power)
+print(symbols)

@@ -1,6 +1,14 @@
-def number (num):
-    num = 7
-    return pow(7, 2) * 10
+def powTwo (numbers):
+    result = []
 
-print(number)
+    for num in numbers:
+        result.append(num * num)
+        return result
+    
+
+
+print(powTwo([1,2,3]))
+    
+
+
 
