@@ -1,0 +1,20 @@
+#Header {
+    color: navy;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:lightblue;
+    text-shadow: 2px 2px 8px;
+
+}
+
+.Paragraph {
+    color:darkblue;
+    background-color: aqua;
+
+}
+
+.mylist {
+    color:blueviolet;
+    background-color: aquamarine;
+    text-shadow: 2px 2px 6px;
+
+}

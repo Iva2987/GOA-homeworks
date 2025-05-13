@@ -1,0 +1,23 @@
+.Header {
+    color:navy;
+    background-color: lightblue;
+    text-shadow: 3px 3px 3px;
+
+
+}
+
+.cover {
+    border: 2px solid;
+    box-shadow: 5px 5px;
+    padding:5px;
+    background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L2EwMTYtamVyZW15Yi01MC5qcGc.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.list {
+    list-style-type: disc;
+    list-style-position: inside;
+    text-align: center;
+    
+}
