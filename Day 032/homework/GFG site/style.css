@@ -1,0 +1,87 @@
+/* ფონის ფერი მთელ გვერდზე */
+body {
+    background: linear-gradient(to bottom, rgb(183, 255, 183), rgb(240, 255, 240));
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ნავიგაციის ზოლი */
+.navbar {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* მარცხენა წარწერა */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(0, 128, 0); /* მწვანე */
+}
+
+/* მენიუ ბმულები */
+.nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* კონტენტი გვერდზე */
+.container {
+    padding: 40px;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.container h3 {
+    font-weight: bold;
+    color: #333;
+}
+
+.container p {
+    max-width: 700px;
+    margin: 20px auto;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* სურათი და ტექსტის კომპონენტის სტილი */
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+/* სურათი */
+.about-content img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* ღილაკი */
+button {
+    background-color: rgb(0, 153, 0);
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: rgb(0, 128, 0);
+}
