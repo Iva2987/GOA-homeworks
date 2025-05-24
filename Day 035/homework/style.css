@@ -1,0 +1,20 @@
+.header{
+    color:navy;
+    background-color: lightblue;
+    text-shadow: 3px 3px 3px;
+    text-align:left;
+
+}
+.cover{
+    box-shadow: 4px 4px;
+    padding: 5px;
+    background-size: cover;
+    
+
+
+}
+
+.header2{
+    color:brown;
+    
+}

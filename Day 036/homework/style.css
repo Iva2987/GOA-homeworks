@@ -1,0 +1,166 @@
+.summer{
+    box-sizing: border-box;
+    width:200px;
+    height:200px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px rgb(180, 175, 175);
+    border-radius: 8px;
+    background-size: cover;
+    
+}
+
+.text-summer{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:navy
+
+}
+
+
+.Winter{
+    box-sizing: border-box;
+    width:200px;
+    height:200px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px rgb(180, 175, 175);
+    border-radius: 8px;
+    background-size: cover;
+
+
+}
+
+.text-winter{
+    text-align: center;
+    color:darkgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-container{
+    display: flex;
+    flex-direction:row;
+    gap: 10px;
+    /* flex-direction:column */
+    justify-content: space-around;
+
+}
+
+.spring{
+    box-sizing: border-box;
+    width:200px;
+    height:200px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px rgb(180, 175, 175);
+    border-radius: 8px;
+    background-size: cover;
+
+}
+
+.text-spring{
+    text-align: center;
+    color:rgb(235, 38, 38);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.autumn{
+    box-sizing: border-box;
+    width:200px;
+    height:200px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px rgb(180, 175, 175);
+    border-radius: 8px;
+    background-size: cover;
+}
+
+.text-autumn{
+    text-align: center;
+    color:rgb(154, 85, 85);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.products-list{
+    color:navy;
+    background-color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 3px 3px 3px;
+
+}
+
+ /* 
+    display: flex - ვიყენებთ ელემენტების რიგის ან სვეტის სახით განლაგებისთვის. 
+    flex ეუბნება ბრაუზერს, რომ შიგთავსი ელემენტები (children) უნდა განლაგდნენ მოქნილი (flexbox) მოდელით.
+  */
+
+   /*
+    justify-content გამოიყენება flex ელემენტების ჰორიზონტალურად (მთავარ ღერძზე) განლაგებისთვის.
+    
+    space-between:
+    • პირველი ელემენტი მიდის მარცხნივ.
+    • ბოლო ელემენტი მიდის მარჯვნივ.
+    • დანარჩენ ელემენტებს შორის სივრცეები თანაბრად ნაწილდება.
+  */
+
+   /* justify-content: space-around; 
+     • ყველა ელემენტის გარშემო (მარცხნივ და მარჯვნივ) იქმნება თანაბარი სივრცე.
+     • ანუ ელემენტებს შორის სივრცე ოდნავ უფრო მეტია, ვიდრე კენტის და ბოლოდან დაშორება.
+  */
+
+    /* justify-content: space-evenly;
+     • ყველა ელემენტს შორის სივრცე ზუსტად თანაბარია.
+     • ეს მოიცავს პირველსა და ბოლო ელემენტსა და container-ის კიდეებს შორისაც თანაბარ სივრცეს.
+  */
+
+  body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 30px;
+  height: 100px;
+  width: 300px;
+  background-color: #eee;
+}
+
+.box {
+  width: 40px;
+  height: 40px;
+  background-color: #28a0e5;
+  color: white;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+/* Flex directions */
+.row {
+  flex-direction: row;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.column {
+  flex-direction: column;
+  height: 200px;
+}
+
+.column-reverse {
+  flex-direction: column-reverse;
+  height: 200px;
+}
